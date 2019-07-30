@@ -8,6 +8,8 @@ using ContosoUniversity.Models;
 using Microsoft.EntityFrameworkCore;
 using ContosoUniversity.Data;
 using ContosoUniversity.Models.SchoolViewModels;
+/* Ed Ali - Added support for data folder (we want SchoolContext). 
+Also added support the SchoolViewModels folder which allows a view to be created called about which shows data relating to the EnrollmentDate from the EnrollmentDateGroup.cs inside SchoolViewModels  */
 namespace ContosoUniversity.Controllers
 {
     public class HomeController : Controller
