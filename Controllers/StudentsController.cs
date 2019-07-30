@@ -20,6 +20,8 @@ namespace ContosoUniversity.Controllers
         }
 
         // GET: Students
+        /* Ed Ali - Replaced the index method so that the ViewData in the index can sort between name and date using either ascending or descending order */
+        /* Ed Ali - Added support for the current filter to be shown in the viewdata for Index. While also checking if searchstring, is empty or not with conditionals. */
         public async Task<IActionResult> Index(
     string sortOrder,
     string currentFilter,
