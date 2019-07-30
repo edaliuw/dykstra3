@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-
+/* Ed Ali - Created .cs for PaginatedList. This class creates a list of pages and total pages. In that list, it contains bools on whether or not the project has a previous or next page. */
 namespace ContosoUniversity
 {
     public class PaginatedList<T> : List<T>
